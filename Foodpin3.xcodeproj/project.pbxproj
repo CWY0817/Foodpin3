@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AF90640D21171C4400526161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90640C21171C4400526161 /* AppDelegate.swift */; };
-		AF90640F21171C4400526161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90640E21171C4400526161 /* ViewController.swift */; };
 		AF90641221171C4400526161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90641021171C4400526161 /* Main.storyboard */; };
 		AF90641421171C4700526161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF90641321171C4700526161 /* Assets.xcassets */; };
 		AF90641721171C4700526161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF90641521171C4700526161 /* LaunchScreen.storyboard */; };
+		AF90642121171CA400526161 /* Restaurant2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90642021171CA400526161 /* Restaurant2TableViewController.swift */; };
+		AF90642321171CC100526161 /* Restaurant2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90642221171CC100526161 /* Restaurant2TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF90640921171C4400526161 /* Foodpin3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodpin3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF90640C21171C4400526161 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF90640E21171C4400526161 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF90641121171C4400526161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF90641321171C4700526161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF90641621171C4700526161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF90641821171C4700526161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF90642021171CA400526161 /* Restaurant2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant2TableViewController.swift; sourceTree = "<group>"; };
+		AF90642221171CC100526161 /* Restaurant2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant2TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				AF90640C21171C4400526161 /* AppDelegate.swift */,
-				AF90640E21171C4400526161 /* ViewController.swift */,
 				AF90641021171C4400526161 /* Main.storyboard */,
 				AF90641321171C4700526161 /* Assets.xcassets */,
 				AF90641521171C4700526161 /* LaunchScreen.storyboard */,
 				AF90641821171C4700526161 /* Info.plist */,
+				AF90642021171CA400526161 /* Restaurant2TableViewController.swift */,
+				AF90642221171CC100526161 /* Restaurant2TableViewCell.swift */,
 			);
 			path = Foodpin3;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF90640F21171C4400526161 /* ViewController.swift in Sources */,
 				AF90640D21171C4400526161 /* AppDelegate.swift in Sources */,
+				AF90642321171CC100526161 /* Restaurant2TableViewCell.swift in Sources */,
+				AF90642121171CA400526161 /* Restaurant2TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW9B7MQLBU;
 				INFOPLIST_FILE = Foodpin3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XW9B7MQLBU;
 				INFOPLIST_FILE = Foodpin3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
